@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css positions with tailwind </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="h-200">
+
+    <nav class="bg-black h-12 w-full flex justify-between fixed ">
+        <p class="text-2xl font-bold text-gray-50 p-2  ml-5">E-skills</p>
+        <div>
+            <select class="bg-gray-100 h-8 rounded-md" name="page" id="">
+                <option value="home">home</option>
+                <option value="about us">about us</option>
+                <option value="contact us">contact us</option>
+            </select>
+            <button class="w-20 h-8 rounded-md bg-green-400 mt-2 mr-2 hover:bg-green-600">sign in</button>
+        </div>
+    </nav>
+
+
+
+
+    <main class=" h-200 bg-black flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center md:w-200" >
+            <p class="text-2xl text-gray-50 border-none ">Future-proof your career</p>
+            <h1 class="text-6xl text-gray-50  text-center">Build your career with E-Skills </h1>
+            <p class="text-gray-50 mt-10 text-xl">Join E-Skills and transform your future with cutting-edge </p>
+
+            <p class="text-gray-50 m-3 text-xl text-center"> courses in Full Stack MERN development and Artificial Intelligence. Our immersive
+                learning experience prepare you for the tech revolution. </p>
+        </div>
+
+        
+        
+        <aside class="fixed h-25 w-25 mt-120 ml-80 md:ml-280 md:mb-20"> 
+            <img class="rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOFUh34Qq7niAQPkaqz1C1Mvn3vTGzCObfzSnwX86s7w&s=10" alt="contact">
+        </aside>
+    </main>
+
+
+
+    <footer class="w-full h-12 bg-black text-center text-blue-50 text-2xl">
+        <hr class="text-xl">
+        <div class="w-full h-12 text-2xl">
+            <a href="#">contact us</a>
+            <a class="m-4" href="#">about us</a>
+            <a href="#">term and condition</a>
+        </div>
+    </footer>
+</body>
+
+</html>
